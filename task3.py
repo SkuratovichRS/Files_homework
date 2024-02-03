@@ -15,7 +15,7 @@ with open('3.txt', encoding='utf-8') as f:
     full_data3 = [f.name + '\n', f'{len(data3)}\n']
     full_data3 += data3
 
-with open('1.txt', 'w', encoding='utf-8') as f:
+with open('task3_result.txt', 'w', encoding='utf-8') as f:
     f.writelines(full_data1)
     f.writelines(full_data2)
     f.writelines(full_data3)
